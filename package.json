@@ -1,0 +1,22 @@
+{
+  "name": "chatbot-backend",
+  "version": "1.0.0",
+  "description": "Dawood Chatbot backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ameen Hamza",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^6.1.0",
+    "cors": "^2.8.5",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^3.0.1"
+  }
+}
