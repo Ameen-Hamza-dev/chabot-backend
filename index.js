@@ -1,7 +1,7 @@
 const { WebhookClient } = require("dialogflow-fulfillment");
 const express = require("express");
 const cors = require("cors");
-const { book } = require('./Controller');
+const { book, getData } = require('./Controller');
 require('dotenv').config()
 
 const app = express();

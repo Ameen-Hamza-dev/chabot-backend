@@ -5,6 +5,10 @@ const nodemailer = require("nodemailer");
 require('dotenv').config()
 var Mailgen = require('mailgen');
 
+const getData = (req, res) => {
+    res.send("Welcome to Dawood UET chatbot backend")
+}
+
 const details = async (agent, name, email, phone, number, depart, id) => {
 
     await agent.add(`${name[0]} ${name[1] ? name[1] : ''} your form request for admission test is submitted successfully 👋 for (${depart}) depart your email is (${email}), phone number (${phone}) and your marks is (${number}) . Check portal after 24 Hours. Please connect with portal for further details. From server side`);
@@ -94,4 +98,4 @@ async function book(agent) {
 }
 
 
-module.exports = { book }
+module.exports = { book, getData }
