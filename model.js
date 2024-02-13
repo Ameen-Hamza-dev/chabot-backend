@@ -9,23 +9,23 @@ const { Schema, model } = require('mongoose');
 const studentForm = new Schema(
     {
         name: {
-            type: Array,
+            type: String,
             required: true
         },
         email: {
-            type: Array,
+            type: String,
             required: true
         },
         phone: {
-            type: Array,
+            type: String,
             required: true
         },
         number: {
-            type: Array,
+            type: String,
             required: true
         },
         depart: {
-            type: Array,
+            type: String,
             required: true
         },
     })
