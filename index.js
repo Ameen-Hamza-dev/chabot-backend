@@ -8,6 +8,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+app.get('/', getData)
+
 const PORT = process.env.SERVER_PORT || 4000;
 
 const intentMap = new Map();
