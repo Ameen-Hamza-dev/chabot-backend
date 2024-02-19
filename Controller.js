@@ -53,7 +53,7 @@ async function book(agent) {
                 product: {
                     name: 'Dawood University Of Engineering & Technology',
                     link: 'https://duet.edu.pk/',
-                    logo: 'https://download.logo.wine/logo/Shoppers_Drug_Mart/Shoppers_Drug_Mart-Logo.wine.png'
+                    logo: 'https://test2.duet.edu.pk/wp-content/uploads/2020/11/duet_logo-300x227.png'
                 }
             });
 
