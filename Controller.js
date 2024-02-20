@@ -77,7 +77,7 @@ async function book(agent) {
 
             const response = {
                 from: process.env.NODEMAILER_EMAIL,
-                to: email,
+                to: email[0],
                 subject: "Hello ✔",
                 text: "Congratulation 🙌 your form submitted successfully keep connect with portal for further details",
                 html: mailGenerator.generate(mailgenEmail),
